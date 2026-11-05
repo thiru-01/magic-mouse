@@ -1,1 +1,8 @@
-<Solution />
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="hid_probe/hid_probe.vcxproj" Id="12e21482-c219-4556-8e5a-81edbf4f0880" />
+  <Project Path="report_parser/report_parser.vcxproj" Id="4d5ca103-f1be-492e-a67c-9c8b023a48f9" />
+</Solution>
