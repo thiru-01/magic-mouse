@@ -1,0 +1,78 @@
+# ---------- Visual Studio ----------
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.aps
+*.VC.db
+*.VC.VC.opendb
+*.ipch
+*.sdf
+*.opensdf
+ipch/
+.vscode/
+
+# ---------- Build output ----------
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+ARM64/
+[Bb]in/
+[Oo]bj/
+*.obj
+*.o
+*.lib
+*.exp
+*.ilk
+*.pch
+*.idb
+*.tlog
+*.log
+*.lastbuildstate
+*.iobj
+*.ipdb
+
+# ---------- Driver build artifacts ----------
+*.sys
+*.cat
+*.pdb
+*.map
+*.tmh
+*.wpp
+*.sdv
+*.DVL.XML
+sdv/
+sdv-map.h
+*.wprp.bak
+
+# ---------- Test signing certificates and keys (NEVER commit) ----------
+*.pfx
+*.pvk
+*.snk
+*.cer
+*.p12
+*.key
+
+# ---------- Crash dumps and traces ----------
+*.dmp
+*.DMP
+MEMORY.DMP
+*.etl
+*.etl.*
+*.wer
+
+# ---------- Testing / analysis ----------
+TestResults/
+*.trx
+*.coverage
+CodeAnalysisLog.xml
+
+# ---------- Rust (for the later port) ----------
+target/
+**/*.rs.bk
+# Commit Cargo.lock, since this is a binary/driver project
+
+# ---------- Project-specific: capture scratch space ----------
+captures/scratch/
